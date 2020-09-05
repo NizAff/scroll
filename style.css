@@ -1,0 +1,112 @@
+body{
+  font-family: Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  overflow-x: hidden;
+}
+.logo{
+  /* not styled yet */
+}
+a{
+  text-decoration: none;
+  cursor: pointer;
+}
+nav{
+  border-bottom: 3px solid ;
+  border-image: linear-gradient(45deg, #6C63FF, #3f3d56) 1;
+}
+nav h3 {
+  float: left;
+  margin-left: 2em;
+  padding-top: .75em;
+  margin-top: 0;
+  transition: .5s ease-in-out;
+}
+nav h3 a{
+  color: #6C63FF;
+}
+nav h3:hover{
+  transform: translateX(20px);
+
+}
+nav ul{
+  margin-top: 0;
+  padding-top: 1em;
+}
+nav ul li{
+  display: inline-block;
+  margin: auto 15px;
+}
+nav ul li a{
+  color: #3f3d56;
+  transition: .5s ease-in-out;
+  margin: auto 5px;
+  padding: 3px;
+}
+nav ul li a:hover{
+  color: #6C63FF;
+  font-size: 20px;
+}
+
+.intro{
+  min-height: 500px;
+  background: url('./img/signIn.png') no-repeat 0 0%;
+  margin-bottom: 2em;
+}
+.container{
+  padding-top: 2em;
+}
+
+
+
+
+
+
+
+
+.row{
+  width: 100%;
+  text-align: center;
+  padding-top: ;
+  padding: 1em 14% 2em;
+}
+/* To avoid overlapping with other divs and sections */
+.row:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+.column{
+  width: 20%;
+  float: left;
+  padding: 0 1%;
+}
+.spaced{
+  margin: auto 3%;
+}
+.column h4{
+  color: #fff;
+  padding-top: 10px;
+  margin-bottom: 0;
+  background-image: linear-gradient(45deg, #a47, #47b);
+  height: 60px;
+  border-radius: 5px 5px 0 0 ;
+}
+.price{
+  color: #fff;
+  background: #222;
+  width: 100%;
+  border-bottom: 7px solid #ddd;
+  border-image: linear-gradient(45deg, #a47, #47b) 1;
+}
+.price p{
+  margin: 0;
+  font-size: 22px;
+}
+
+
+.animated{
+  width: 200px;
+  height: 200px;
+}
